@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_gravity="center"
+    tools:context=".OrderActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="200dp"
+        android:id="@+id/o1"
+        android:src="@drawable/o1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ORDER"
+        android:gravity="center"
+        android:textColor="@color/Primary"
+        android:layout_marginTop="35dp"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="SUCCESSFULL"
+        android:textColor="@color/Primary"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="34dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Thank you for shopping with us"
+        android:gravity="center"
+        android:textColor="@color/Primary"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:id="@+id/btn2"
+        android:text="Continue Shopping"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:background="@drawable/shape3"
+        android:textSize="25dp"/>
+
+</LinearLayout>
